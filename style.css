@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	pading: 0;
+	box-sizing: border-box;
+	font-family:'Pappins',sans-serif;
+	
+
+}
+.heder{
+
+	background-image:linear-gradient(rgba(4,2,10,0.6),rgba(4,2,10,0.6)),url(image/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 98vh;
+}
+.hero{
+	
+	padding: 10px 5%;
+	
+}
+nav{
+	 background: linear-gradient(to bottom, darkgoldenrod 65%, transparent 100%);
+	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav .logo{
+	width: 90px;
+	cursor: pointer;
+}
+nav .menulogo{
+	width: 60px;
+	cursor: pointer;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+span{
+	font-family: 'Cursive',Lucida Handwriting;
+	font-size: 6vh;
+}
+h1 {
+	font-weight:100;
+	color: white;
+}
+nav ul{
+	flex: 1;
+	text-align: right;
+	margin-right: 15px;
+	position: static;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 5px 10px  ;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#000;
+	font-size: 3vh;
+	font-weight: 750;
+	position: relative;
+	padding:  2px;
+	background: none;
+	
+}
+nav ul li a::before{
+	content: '';
+	color: yellow;
+	width: 100%;
+	height: 0px;
+	background:palegoldenrod;
+	position: absolute;
+	z-index: -1;
+	left:0;
+	bottom: -8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	transition: height 0.8s;
+}
+nav ul li a:hover::before{
+	height: 55px;
+	color: red;
+}
+.con {
+	font-size: 6vh;
+	color: lightgoldenrodyellow;
+	padding-top: 200px;
+	padding-left: 100px;
+}
+.con2{
+	color: lightgoldenrodyellow;
+	width: 500px;
+	padding-left: 100px;
+}
+.hederbtn{
+	margin-left: 200px;
+	padding: 5px;
+	padding-inline: 20px;
+	border-radius: 15px;
+	color: balck;
+	font-weight: 500;
+	background: darkgoldenrod;
+	border: none;
+	box-shadow: 5px;
+}
+.callbtn{
+	margin-top: 50px;
+	margin-left:250px;
+	padding: 10px;
+	padding-inline: 20px;
+	border-radius: 15px;
+	color: balck;
+	font-size:3vh;
+	font-weight: 500;
+	background: lightgrey;
+	border: none;
+	box-shadow: 5px;
+}
+.whatsapp{
+	width:80px;
+	margin-top: 300px;
+	margin-left:450px;
+}
+
+
+.work{
+	margin:1rem;
+	
+	text-align: center;
+	align-items: center;
+	justify-items:center;
+}
+.card{
+	width: 13rem;
+	height:19rem;
+	
+}
+.card:hover{
+	box-shadow: 8px 8px 10px 5px #888888 ;
+	background: yellow;
+	border-style:solid;
+	border-color:black;
+}
+.card-img-top{
+	width: 95%;
+	height: 30vh;
+	border-radius: 1rem;
+	border-top: 1rem;
+}
+.about{
+	background-image:url(image/aboutbg.jpg) ;
+	background-size: cover;
+	backface-visibility: 75%;
+	margin:1rem;
+	text-align: center;
+}
+.about_con{
+	padding-top: 5vh;
+	margin: 50px;
+	align-items: justify-content;
+}
+
+.aboutimg{
+	margin: 10px;
+	width: 85vh;
+	padding-left: 50px;
+}	
+.addres{
+	width: 200px;
+}
+.adrsicon{ 
+	width: 2.2rem; }
+
+.input{
+	margin: 10px;
+	width: 100%;
+}	
+
+
+.footer{
+	height: 60px;
+	background: linear-gradient(to top, darkgoldenrod 65%, transparent 100%);
+	padding-top: 30px;
+	text-align: center;
+
+}
